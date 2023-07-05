@@ -3,14 +3,9 @@ pipeline{
         label "jenkins-agent"
     }
     tools {
-        jdk 'Java11' // Changed from 'Java17' to 'Java11'
+        jdk 'Java17' 
         maven 'Maven3'
     }
-    // environment {
-    //     APP_NAME = "complete-prodcution-e2e-pipeline"
-    //     RELEASE = "1.0.0"
-    //     JENKINS_API_TOKEN = credentials("JENKINS_API_TOKEN")
-    // }
 
     stages{
         stage("Cleanup Workspace"){
