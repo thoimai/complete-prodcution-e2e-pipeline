@@ -28,6 +28,7 @@
  * CloudBees docker build and publish 
  
 
+# Add trigger CD pipeline 
 
-
+> How the GitOps CD pipeline is triggered from the 1st CI pipeline
 
